@@ -1,0 +1,62 @@
+# C++ compiled files
+*.out
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+
+# Executables
+*_exec
+main_exec
+brute_exec
+gen_exec
+
+# Stress testing generated files
+stress/input.txt
+stress/output_main.txt
+stress/output_brute.txt
+stress/failed_test.txt
+stress/compile_error.txt
+stress/*.out
+
+# IDE - CLion
+.idea/
+cmake-build-*/
+CMakeLists.txt
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Compiled output
+a.out
+main
+solution
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Personal test files
+test.cpp
+temp.cpp
+scratch.cpp
+input.txt
+output.txt
